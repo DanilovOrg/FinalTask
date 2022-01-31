@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ffee2032-866f-4ba3-9711-b3bf8c6c1f9b">
+  <producedTypes>
+    <objectType typeId="1942abc8-53e6-4f7e-bc6a-be27ea7d09b5" valueTypeId="fbb6d0ae-1f4b-415d-b2d7-14761a8ac3be"/>
+    <refType typeId="04bccf26-c31a-4b0e-8eef-0781447f12b2" valueTypeId="5760c2db-d208-44b3-9a25-e4b8bd808889"/>
+    <selectionType typeId="d0a16ebf-80d9-4f4c-a4cb-673b5ad7c248" valueTypeId="b8b391d0-93c9-42d6-b840-ca6dd7339795"/>
+    <listType typeId="87c3429c-794c-4908-833d-bdecc0c6d7ba" valueTypeId="3798d87c-c15a-4f63-806b-863e73e81dab"/>
+    <managerType typeId="20c81976-1c76-4041-b535-9d7f5b0ede63" valueTypeId="35031f10-ab29-42b7-b400-d546b9844392"/>
+  </producedTypes>
+  <name>Products</name>
+  <synonym>
+    <key>en</key>
+    <value>Products</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Products.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.Products.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

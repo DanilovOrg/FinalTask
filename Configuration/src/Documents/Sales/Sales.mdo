@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3cd9ee51-6fb0-4985-8dcd-6f5c8f877c48">
+  <producedTypes>
+    <objectType typeId="45210af3-a870-4601-8385-47895958f552" valueTypeId="b9e03f09-61d8-4e37-9f37-bde3a932e9ef"/>
+    <refType typeId="8071749e-7969-4511-8ff0-40f8bdd34065" valueTypeId="71a614d3-aa29-4805-93a1-039abf3a0bb4"/>
+    <selectionType typeId="f6896341-1256-45a5-aab0-5ebb126476c5" valueTypeId="9922086b-7a91-475b-af96-54d97793d098"/>
+    <listType typeId="d8ab27bb-b594-4145-9d2b-9a1a09d188de" valueTypeId="f9b4de98-2a50-4cd7-8ca7-229a5db2c032"/>
+    <managerType typeId="44d0d772-83ef-4c18-adc4-c14eda67c7da" valueTypeId="d0854455-6086-4bf9-802f-546bbd4cba25"/>
+  </producedTypes>
+  <name>Sales</name>
+  <synonym>
+    <key>en</key>
+    <value>Sales</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.Sales.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <tabularSections uuid="bf4144b6-e00d-4e38-be2f-2d7c56da5f5c">
+    <producedTypes>
+      <objectType typeId="4447f7ee-5a44-4187-bdba-cf25e9026647" valueTypeId="f7a4931a-f7e1-4a17-894b-797862f05601"/>
+      <rowType typeId="a08dd749-6148-4720-ad99-455ba7d37e95" valueTypeId="4dff432d-1322-4a36-a537-bb79df6ce3b8"/>
+    </producedTypes>
+    <name>TabProducts</name>
+    <synonym>
+      <key>en</key>
+      <value>Tab products</value>
+    </synonym>
+    <attributes uuid="4bc8fc60-2091-4d19-ad96-c3c8dab51354">
+      <name>Products</name>
+      <synonym>
+        <key>en</key>
+        <value>Products</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Products</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="9878e6e9-e61e-480c-9159-670666b78fa9">
+      <name>Cost</name>
+      <synonym>
+        <key>en</key>
+        <value>Cost</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>10</precision>
+          <scale>2</scale>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="d7801a9a-ccaf-481c-b29d-1db30490df15">
+      <name>Count</name>
+      <synonym>
+        <key>en</key>
+        <value>Count</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>10</precision>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="227a3d6d-75b4-41b6-816c-37848260d7a6">
+      <name>Sum</name>
+      <synonym>
+        <key>en</key>
+        <value>Sum</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>10</precision>
+          <scale>2</scale>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+</mdclass:Document>
